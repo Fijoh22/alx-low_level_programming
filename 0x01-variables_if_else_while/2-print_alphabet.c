@@ -2,20 +2,21 @@
 #include <stdlib.h>
 
 /**
- *main - returns alphabets both lower and upper cases   *
+ *main - Entry point
  *
- *Return: Always 0 (Success)
+ *Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int ch = 'a';
-	int CH = 'A';
+	char c;
 	
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
